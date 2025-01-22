@@ -1,12 +1,36 @@
 .header{
     color: #fff;
 }
-.logo a {
-    display: inline-block;
-    text-transform: uppercase;
-    color: #333;
-    font-size: 24px;
-    font-weight: 700;
-    padding: 15px 10px;
-    border: 1px solid #333;
+.header-area {
+    padding: 20px 0;
 }
+    .logo {
+        a{
+        display: inline-block;
+        text-transform: uppercase;
+        color: #333;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 15px 10px;
+        border: 1px solid #333;
+        }
+    }
+.menu{
+    ul{
+        display: flex;
+        justify-content: end;
+        li{
+            a{
+                display: block;
+                color: #333;
+                font-size: 18px;
+                margin-left: 15px;
+                text-transform: capitalize;
+                &:hover{
+
+                }
+            }
+        }
+    }
+}
+

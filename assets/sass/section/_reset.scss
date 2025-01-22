@@ -1,0 +1,22 @@
+/*Flex Css*/
+$flex:flex,inline-flex;
+@each $i in $flex {
+    .d-#{$i} {
+        display: $i;
+    }
+}
+$justify:start ,center, end , evenly, space-between, space-around;
+
+@each $i in $justify {
+    .justify-content-#{$i} {
+        justify-content: $i;
+    }
+}
+$aling-items:start ,center, end , stretch, baseline;
+
+@each $i in $aling-items {
+    .aling-items-#{$i} {
+        align-items: $i;
+    }
+}
+
