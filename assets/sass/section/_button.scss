@@ -1,0 +1,30 @@
+.button{
+    display: inline-block;
+    color: $white;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 3px;
+    line-height: 30px;
+    &:focus{
+        box-shadow: none !important;
+    }
+    &.btn-primary{
+        padding: 10px 20px;
+        background-color: $btn_background;
+        &:hover {
+            background-color: $btn_hover;
+            color: $white;
+        }
+       
+    }
+    &.btn-border{
+        padding: 8px 20px;
+        border:2px solid $btn_background;
+        background: transparent;
+        &:hover{
+            background-color: $btn_hover;
+            color: $white;
+            border-color: $btn_hover;
+        }
+    }
+}

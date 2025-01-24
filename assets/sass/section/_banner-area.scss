@@ -1,6 +1,7 @@
 .banner-area {
     height: 100vh;
     .banner-content{
+        padding: 50px;
         h1{
            color: $white;
            font-size: 76px;
@@ -13,7 +14,8 @@
           text-transform: capitalize;  
         }
         a{
-
+          margin:30px 5px 0 5px;
+          transition: .3s;
         }
     }
 }

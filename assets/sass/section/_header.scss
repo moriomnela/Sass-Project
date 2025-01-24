@@ -3,32 +3,43 @@
 }
 .header-area {
     padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 20px 0;
+    z-index: 999;
+    backdrop-filter: blur(20px);
+    background-color: #3333331a;
+    border-bottom: 1px solid #33333347;
+    
 }
     .logo {
         a{
-        display: inline-block;
-        text-transform: uppercase;
-        color: #333;
-        font-size: 24px;
-        font-weight: 700;
-        padding: 15px 10px;
-        border: 1px solid #333;
+            display: inline-block;
+            text-transform: uppercase;
+            color: $white;
+            font-size: 24px;
+            font-weight: 700;
+            padding: 15px 10px;
+            border: 1px solid $white;
+            z-index: 2;
         }
     }
 .menu{
     ul{
+        gap: 25px;
+        margin: 0;
         li{
             a{
                 display: block;
-                color: $link-color;
+                color: $white;
                 font-size: 16px;
                 font-weight: 600;
-                margin-left: 15px;
                 text-transform: uppercase;
                 transition: .3s;
                 &:hover{
-                    color: blue;
-
+                    color: $link_hover;
                 }
             }
         }
