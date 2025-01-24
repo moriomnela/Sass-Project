@@ -1,3 +1,5 @@
+@import "variables";
+
 /*Background Image SCSS*/
 .bg {
     background-size: cover;
@@ -12,12 +14,18 @@
         height: 100%;
         left: 0;
         top: 0;
-        //background-color: #333;
-        //opacity: .75;
+        background-color: #333;
+        opacity: .75;
+        z-index: -1;
     }
 }
 
-
+$align: left,center,right,justify;
+@each $i in $align {
+    .text-#{$i} {
+        text-align: $i;
+    }
+}
 /*Flex Css*/
 $flex:flex,inline-flex;
 @each $i in $flex {
