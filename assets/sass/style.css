@@ -32,72 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 /*Section*/
 /*Common Color*/
 /*Theme color*/
-.header {
-  color: #fff;
-}
-
-.header-area {
-  padding: 20px 0;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  padding: 20px 0;
-  z-index: 999;
-  backdrop-filter: blur(20px);
-  background-color: rgba(51, 51, 51, 0.1019607843);
-  border-bottom: 1px solid rgba(51, 51, 51, 0.2784313725);
-}
-
-.logo a {
-  display: inline-block;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  padding: 15px 10px;
-  border: 1px solid #fff;
-  z-index: 2;
-}
-
-.menu ul {
-  gap: 25px;
-  margin: 0;
-}
-.menu ul li a {
-  display: block;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  transition: 0.3s;
-}
-.menu ul li a:hover {
-  color: #ff3636;
-}
-
-.banner-area {
-  height: 100vh;
-}
-.banner-area .banner-content {
-  padding: 50px;
-}
-.banner-area .banner-content h1 {
-  color: #fff;
-  font-size: 76px;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-.banner-area .banner-content h4 {
-  font-size: 25px;
-  color: #fff;
-  text-transform: capitalize;
-}
-.banner-area .banner-content a {
-  margin: 30px 5px 0 5px;
-  transition: 0.3s;
-}
-
 /*Common Color*/
 /*Theme color*/
 /*Background Image SCSS*/
@@ -351,6 +285,72 @@ h1, h2, h3, h4, h5, h6 {
   align-items: baseline;
 }
 
+.header {
+  color: #fff;
+}
+
+.header-area {
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 20px 0;
+  z-index: 999;
+  backdrop-filter: blur(20px);
+  background-color: rgba(51, 51, 51, 0.3);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2784313725);
+}
+
+.logo a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px 10px;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.menu ul {
+  gap: 25px;
+  margin: 0;
+}
+.menu ul li a {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.menu ul li a:hover {
+  color: #ff3636;
+}
+
+.banner-area {
+  height: 100vh;
+}
+.banner-area .banner-content {
+  padding: 50px;
+}
+.banner-area .banner-content h1 {
+  color: #fff;
+  font-size: 76px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.banner-area .banner-content h4 {
+  font-size: 25px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.banner-area .banner-content a {
+  margin: 30px 5px 0 5px;
+  transition: 0.3s;
+}
+
 .button {
   display: inline-block;
   color: #fff;
@@ -379,6 +379,26 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #333;
   color: #fff;
   border-color: #333;
+}
+
+.about-content h2 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #ff3636;
+}
+.about-content h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.about-content ul li {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.about-content ul li i {
+  color: #ff3636;
 }
 
 /*# sourceMappingURL=style.css.map */

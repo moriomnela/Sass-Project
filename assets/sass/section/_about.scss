@@ -1,0 +1,39 @@
+// .about-area{
+//     .about-img{
+//         img{
+
+//         }
+//     }
+// }
+
+
+.about-content{
+    h2 {
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 60px;
+        text-transform: capitalize;
+        color: $heading_color;
+        }
+    h4{
+      font-size: 25px;
+      text-transform: capitalize;
+    }
+    // p{
+
+    // }
+    ul{
+        li{
+          text-transform: capitalize;
+          font-size: 16px;
+          margin-bottom: 10px;
+          i{
+            color: $primary_color;
+          }
+        }
+        // a{
+           
+        // }
+    }
+
+}
