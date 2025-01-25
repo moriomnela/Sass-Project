@@ -1,22 +1,25 @@
 .service-area{
-    .section-title{
-        h2{
-          font-size: 50px;
-          font-weight: 800;
-          line-height: 60px;
-          color: $primary_color;
-          text-transform: capitalize;
-        }
-        p{
-            
-        }
-    }
+     background-color: $bg-gray;
     .single-service{
+        background-color: $white;
+        padding: 25px 30px;
+        margin-bottom: 50px;
+        border: 1px solid #eee;
+        &:hover {
+            i{
+                border-radius: 50%;
+            }
+          }
         i{
-
+          font-size: 20px;          
+          padding: 20px;
+          color: $white;
+          background-color: $primary_color;
+          transition: .3s;
         }
         h4{
-
+          font-size: 24px;
+          margin: 20px 0;
         }
         p{
 
