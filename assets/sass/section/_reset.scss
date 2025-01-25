@@ -20,7 +20,27 @@
         z-index: -1;
     }
 }
-
+/*Padding & Margin*/
+ @for $i from 1 through 10{
+    .pt-#{$i * 10}{
+        padding-top: $i * 10px;
+    }
+ }
+ @for $i from 1 through 10{
+    .pb-#{$i * 10}{
+        padding-bottom: $i * 10px;
+    }
+ }
+ @for $i from 1 through 10{
+    .mt-#{$i * 10}{
+        margin-top: $i * 10px;
+    }
+ }
+ @for $i from 1 through 10{
+    .mb-#{$i * 10}{
+        margin-bottom: $i * 10px;
+    }
+ }
 $align: left,center,right,justify;
 @each $i in $align {
     .text-#{$i} {
