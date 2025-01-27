@@ -90,11 +90,11 @@ $('.slide-active').owlCarousel({
 
 
 /* magnificPopup img view */
-$('.popup-image').magnificPopup({
+$('.project-popup-image').magnificPopup({
 	type: 'image',
-	gallery: {
-	  enabled: true
-	}
+	gallery:{
+		enabled:true
+	  }
 });
 
 /* magnificPopup video view */
