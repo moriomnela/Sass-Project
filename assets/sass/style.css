@@ -612,4 +612,72 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
+.price-area {
+  background-color: #f6f6f6;
+}
+.price-area .single-price {
+  padding: 30px 40px;
+  background-color: #fff;
+}
+.price-area .single-price.active {
+  border: 5px solid #ff3636;
+}
+.price-area .single-price span {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+}
+.price-area .single-price h4 {
+  font-size: 50px;
+  margin: 20px 0;
+  font-weight: 800;
+}
+.price-area .single-price ul {
+  margin-bottom: 30px;
+}
+.price-area .single-price ul li {
+  padding: 10px;
+  border-bottom: 1px solid #f3f3f3;
+  font-size: 16px;
+}
+.price-area .single-price ul li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.team-area .single-team {
+  position: relative;
+  overflow: hidden;
+}
+.team-area .single-team:hover .team-overlay {
+  bottom: 0;
+}
+.team-area .single-team img {
+  width: 100%;
+}
+.team-area .single-team .team-overlay {
+  position: absolute;
+  bottom: -58px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.6);
+  transition: 0.3s;
+}
+.team-area .single-team .team-overlay h4 {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 22px;
+}
+.team-area .single-team .team-overlay a {
+  color: #fff;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+.team-area .single-team .team-overlay a:hover {
+  color: #ff3636;
+}
+
 /*# sourceMappingURL=style.css.map */

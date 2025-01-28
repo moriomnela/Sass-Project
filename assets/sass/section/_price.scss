@@ -1,0 +1,36 @@
+.price-area{
+    background-color: $bg-gray;
+   
+    .single-price{
+        padding: 30px 40px;
+        background-color: $white;
+        &.active{
+            border: 5px solid $primary_color;
+        }
+        span{
+            display: block;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 22px;
+
+        }
+        h4{
+            font-size: 50px;
+            margin: 20px 0;
+            font-weight: 800;
+        }
+        ul{
+            margin-bottom: 30px;
+            li{
+                padding: 10px;
+                border-bottom: 1px solid $border-bottom;
+                font-size: 16px;
+                &:last-child{
+                  border-bottom: 0;
+                  margin-bottom: 0;
+                  padding-bottom: 0;
+                }
+            }
+        }
+    }
+}
