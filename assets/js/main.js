@@ -129,7 +129,8 @@ $('.portfolio-menu button').on('click', function(event) {
 	event.preventDefault();
 });
 
-
+ //slick-slider
+ $('.testimonial').slick();
 
 
 // scrollToTop
@@ -153,3 +154,11 @@ new WOW().init();
 
 
 })(jQuery);
+// Initialize Swipe
+  var swiper = swiper-wrapper(".swiper-slide", {
+	navigation: {
+	  nextEl: ".swiper-button-next",
+	  prevEl: ".swiper-button-prev",
+	},
+  });
+ 
