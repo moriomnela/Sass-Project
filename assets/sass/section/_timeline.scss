@@ -7,8 +7,8 @@
                 width: 2px;
                 height: 100%;
                 background-color: $primary_color;
-                left: 50%;
-                top: 50%;
+                left: 51%;
+                top: 0;
                 transform: translateX(-50%);
             }
             li{
@@ -23,7 +23,7 @@
                     background-color: $primary_color;
                     border-radius: 50%;
                     top: 50%;
-                    left: 50%;
+                    left: 629px;
                     transform: translate(-50%, -50%);
 
                 }

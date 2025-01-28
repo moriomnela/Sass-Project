@@ -20,6 +20,9 @@
         z-index: -1;
     }
 }
+.mx-auto{
+    margin: 0 auto;
+}
 /*Padding & Margin*/
  @for $i from 1 through 10{
     .pt-#{$i * 10}{
